@@ -2,10 +2,10 @@ package de.htw_berlin.fb4.ossd.reem;
 
 import de.htw_berlin.fb4.ossd.prose.Sentence;
 
-public class SecondSentence implements Sentence {
+public class MotivationalSentence implements Sentence {
 
     @Override
     public String get() {
-        return "This is my second sentence from my app.";
+        return "Never give up. Every day is a new opportunity to succeed.";
     }
 }

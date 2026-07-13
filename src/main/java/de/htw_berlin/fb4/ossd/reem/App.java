@@ -15,6 +15,7 @@ public class App {
         builder.register(new SecondSentence());
         builder.register(new FunnySentence());
         builder.register(new SeriousSentence());
+        builder.register(new MotivationalSentence());
 
 
         System.out.println(builder.get());
